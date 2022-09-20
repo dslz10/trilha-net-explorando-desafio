@@ -23,12 +23,7 @@ namespace DesafioProjetoHospedagem.Models
             }
             else
             {
-                // TODO: Retornar uma exception caso a capacidade seja menor que o número de hóspedes recebido
-                // *IMPLEMENTE AQUI*
-            //    Exception
-            //         Console.WriteLine("A capacidade não pode ser inferior ao numero de hospedes.");
-            //     }
-                
+                throw new Exception("A capacidade não pode ser inferior ao numero de hospedes.");           
             }
         }
 
